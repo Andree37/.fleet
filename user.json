@@ -1,17 +1,22 @@
 {
   "keymap": [
-      // "Open Tools Panel"
-      {"key": "cmd-t", "trigger": "show-goto-tool-panel"},
-      // "Toggle Git Blame"
-      {"key": "cmd-b", "trigger": "git/blame"},
-      // "Reformat Code"
-      {"key": "cmd-shift-l", "trigger": "reformat-code"},
-      // "Go to Definition"
-      // Remove unnecesary git stuff from here
-      {"key": "cmd-e", "trigger": "go-to-declaration"},
-      {"key": "cmd-t", "trigger": "-git/pull"},
-      {"key": "cmd-shift-k", "trigger": "-git/push"},
-      {"key": "alt-cmd-z", "trigger": "-git/revert"},
-      {"key": "cmd-k", "trigger": "-git/commit"}
+    // "Open Tools Panel"
+    {"key": "cmd-t", "trigger": "show-goto-tool-panel"},
+    // "Toggle Git Blame"
+    {"key": "cmd-b", "trigger": "git/blame"},
+    // "Reformat Code"
+    {"key": "cmd-shift-l", "trigger": "reformat-code"},
+    // "Go to Definition"
+    // Remove unnecesary git stuff from here
+    {"key": "cmd-e", "trigger": "go-to-declaration"},
+    {"key": "cmd-t", "trigger": "-git/pull"},
+    {"key": "cmd-shift-k", "trigger": "-git/push"},
+    {"key": "alt-cmd-z", "trigger": "-git/revert"},
+    {"key": "cmd-k", "trigger": "-git/commit"},
+    // Go to Declarations
+    {"key": "cmd-b", "trigger": "-go-to-declaration"},
+    {"key": "cmd-shift-b", "trigger": "-go-to-type-declaration"},
+    {"key": "shift-cmd-e", "trigger": "go-to-type-declaration"},
+    {"key": "ctrl-shift-b", "trigger": "-go-to-type-declaration"}
   ]
 }
