@@ -12,4 +12,5 @@
     "editor.hoverTooltipDelayMs": 200,
     "files.toggleFolderMode": "singleClick",
     "goto_panel.showShortcuts": true,
+    "git.push.confirm": true,
 }
