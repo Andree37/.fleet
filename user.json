@@ -1,0 +1,19 @@
+{
+    "keymap": [
+        // Remove unnecesary git stuff from here
+        // "Jump to Git Commit and Sync Tool"
+        {"key": "", "trigger": "git/commit"},
+        // "Git Push"
+        {"key": "", "trigger": "git/push"},
+        // "Git Pull"
+        {"key": "", "trigger": "git/pull"},
+        // "Open Tools Panel"
+        {"key": "cmd-t", "trigger": "show-goto-tool-panel"},
+        // "Toggle Git Blame"
+        {"key": "cmd-b", "trigger": "git/blame"},
+        // "Reformat Code"
+        {"key": "cmd-shift-l", "trigger": "reformat-code"},
+        // "Go to Definition"
+        {"key": "cmd-e", "trigger": "go-to-declaration"}
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "theme": "dark_purple",
+    "editor.ligatures": false,
+    "editor.guides": [80,120],
+    "editor.overscrollKind": "Full",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 13,
+    "editor.alwaysShowVerticalScrollbar": false,
+    "editor.tabSize": 4,
+    "completion.autoPopupDelay": 2,
+    "keymap": "macos-ij",
+    "editor.hoverTooltipDelayMs": 200,
+    "files.toggleFolderMode": "singleClick",
+    "goto_panel.showShortcuts": true,
+}
